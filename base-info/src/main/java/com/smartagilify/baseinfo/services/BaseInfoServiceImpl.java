@@ -5,10 +5,7 @@ import com.smartagilify.baseinfo.entities.BaseInfo;
 import com.smartagilify.baseinfo.exception.BaseInfoNotFoundException;
 import com.smartagilify.baseinfo.mappers.BaseInfoMapper;
 import com.smartagilify.baseinfo.repositories.BaseInfoRepository;
-import com.smartagilify.core.exceptions.BusinessException;
-import com.smartagilify.core.mappers.BaseMapper;
 import com.smartagilify.core.services.BaseService;
-import org.mapstruct.factory.Mappers;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Service;
 

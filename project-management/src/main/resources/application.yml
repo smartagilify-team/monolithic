@@ -1,0 +1,31 @@
+server:
+  port: 1002
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/smartagilify-monolithic
+    username: postgres
+    password: admin
+    driver-class-name: org.postgresql.Driver
+  main:
+    allow-bean-definition-overriding: true
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+logging:
+  level:
+    root: info
+  file:
+    path: C:/logs/smartagilify.log
+  pattern:
+#    console: "%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n"
+    file: "%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n"

@@ -1,12 +1,14 @@
 package com.smartagilify.baseinfo.entities;
 
 import com.smartagilify.core.entities.BaseEntity;
-import lombok.*;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 import lombok.experimental.SuperBuilder;
-import org.hibernate.annotations.Type;
 
-import javax.persistence.*;
-import java.util.UUID;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Table;
 
 @Entity
 @Table(name = "BI$T_BASE_INFO")
