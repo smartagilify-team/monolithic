@@ -11,7 +11,7 @@ import javax.persistence.Entity;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "BI$T_BASE_INFO")
+@Table(name = "BI$T_BASE_INFO", schema = "PUBLIC")
 @Getter
 @Setter
 @NoArgsConstructor

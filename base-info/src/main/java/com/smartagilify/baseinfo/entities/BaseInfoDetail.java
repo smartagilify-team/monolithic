@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-@Table(name = "BI$T_BASE_INFO_DETAIL")
+@Table(name = "BI$T_BASE_INFO_DETAIL", schema = "PUBLIC")
 @Getter
 @Setter
 @NoArgsConstructor
