@@ -1,7 +1,10 @@
 package com.smartagilify.projectmanagement.model.dtos;
 
 import com.smartagilify.core.model.BaseDTO;
+import com.smartagilify.projectmanagement.model.entities.ProjectAttachment;
 import lombok.*;
+
+import java.util.List;
 
 @Getter
 @Setter
@@ -15,5 +18,5 @@ public class ProjectDTO extends BaseDTO {
     private String endDate;
     private String projectType;
     private Double budget;
-
+    private List<ProjectAttachmentDTO> attachments;
 }

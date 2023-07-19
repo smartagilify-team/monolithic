@@ -8,6 +8,7 @@ import lombok.Setter;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
+import java.util.List;
 
 @Getter
 @Setter
@@ -30,4 +31,7 @@ public class Project extends BaseEntity {
 
     @Column(name = "BUDGET")
     private Double budget;
+
+    @OneToMany(mappedBy = "project", cascade = CascadeType.PERSIST)
+    private List<ProjectAttachment> attachments;
 }

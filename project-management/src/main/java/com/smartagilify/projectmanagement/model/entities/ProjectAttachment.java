@@ -16,7 +16,7 @@ import javax.persistence.*;
 public class ProjectAttachment extends BaseEntity{
 
     @JoinColumn(name = "PROJECT_ID", foreignKey = @ForeignKey(name = "P_ATTACHMENT_PROJECT_FK_ID"))
-    @ManyToOne(fetch = FetchType.EAGER)
+    @ManyToOne(cascade = CascadeType.MERGE, fetch = FetchType.LAZY)
     private Project project;
 
     @Enumerated(EnumType.STRING)
