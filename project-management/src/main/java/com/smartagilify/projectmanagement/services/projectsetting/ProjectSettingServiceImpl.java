@@ -1,11 +1,9 @@
 package com.smartagilify.projectmanagement.services.projectsetting;
 
 import com.smartagilify.core.enumerations.EN_STATE;
-import com.smartagilify.core.model.InputDTO;
 import com.smartagilify.core.services.BaseService;
 import com.smartagilify.projectmanagement.exceptions.ApplicationException;
 import com.smartagilify.projectmanagement.mappers.projectsetting.ProjectSettingMapper;
-import com.smartagilify.projectmanagement.model.dtos.PerformanceReportDTO;
 import com.smartagilify.projectmanagement.model.dtos.ProjectSettingDTO;
 import com.smartagilify.projectmanagement.model.entities.Project;
 import com.smartagilify.projectmanagement.model.entities.ProjectSetting;

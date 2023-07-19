@@ -1,16 +1,11 @@
 package com.smartagilify.projectmanagement.services.projectmember;
 
 import com.smartagilify.core.enumerations.EN_STATE;
-import com.smartagilify.core.model.InputDTO;
 import com.smartagilify.core.services.BaseService;
 import com.smartagilify.projectmanagement.exceptions.ApplicationException;
 import com.smartagilify.projectmanagement.mappers.projectmember.ProjectMemberMapper;
 import com.smartagilify.projectmanagement.model.dtos.ProjectMemberDTO;
-import com.smartagilify.projectmanagement.model.dtos.ProjectMemberDTO;
-import com.smartagilify.projectmanagement.model.dtos.ProjectMemberDTO;
-import com.smartagilify.projectmanagement.model.dtos.ProjectMemberDTO;
 import com.smartagilify.projectmanagement.model.entities.Project;
-import com.smartagilify.projectmanagement.model.entities.ProjectAttachment;
 import com.smartagilify.projectmanagement.model.entities.ProjectMember;
 import com.smartagilify.projectmanagement.repositories.project.ProjectRepository;
 import com.smartagilify.projectmanagement.repositories.projectmember.ProjectMemberRepository;

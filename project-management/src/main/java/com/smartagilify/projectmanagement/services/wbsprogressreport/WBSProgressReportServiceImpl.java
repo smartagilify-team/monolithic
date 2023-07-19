@@ -9,7 +9,6 @@ import com.smartagilify.projectmanagement.model.entities.PerformanceReport;
 import com.smartagilify.projectmanagement.model.entities.WBS;
 import com.smartagilify.projectmanagement.model.entities.WBSProgressReport;
 import com.smartagilify.projectmanagement.repositories.performancereport.PerformanceReportRepository;
-import com.smartagilify.projectmanagement.repositories.project.ProjectRepository;
 import com.smartagilify.projectmanagement.repositories.wbs.WBSRepository;
 import com.smartagilify.projectmanagement.repositories.wbsprogressreport.WBSProgressReportRepository;
 import org.springframework.data.jpa.repository.JpaRepository;
@@ -24,7 +23,10 @@ public class WBSProgressReportServiceImpl extends
     private final PerformanceReportRepository performanceReportRepository;
     private final WBSRepository wbsRepository;
 
-    public WBSProgressReportServiceImpl(JpaRepository<WBSProgressReport, Long> jpaRepository, WBSProgressReportRepository wbsProgressReportRepository, ProjectRepository projectRepository, PerformanceReportRepository performanceReportRepository, WBSRepository wbsRepository) {
+    public WBSProgressReportServiceImpl(JpaRepository<WBSProgressReport, Long> jpaRepository,
+                                        WBSProgressReportRepository wbsProgressReportRepository,
+                                        PerformanceReportRepository performanceReportRepository,
+                                        WBSRepository wbsRepository) {
         super(jpaRepository);
         this.wbsProgressReportRepository = wbsProgressReportRepository;
         this.performanceReportRepository = performanceReportRepository;

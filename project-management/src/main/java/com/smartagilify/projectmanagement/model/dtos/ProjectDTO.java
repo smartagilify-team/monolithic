@@ -1,7 +1,6 @@
 package com.smartagilify.projectmanagement.model.dtos;
 
 import com.smartagilify.core.model.BaseDTO;
-import com.smartagilify.projectmanagement.model.entities.ProjectAttachment;
 import lombok.*;
 
 import java.util.List;

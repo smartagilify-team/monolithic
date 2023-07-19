@@ -1,9 +1,7 @@
 package com.smartagilify.projectmanagement.mappers.wbs;
 
 import com.smartagilify.core.mappers.BaseMapper;
-import com.smartagilify.projectmanagement.model.dtos.ProjectAttachmentDTO;
 import com.smartagilify.projectmanagement.model.dtos.WBSDTO;
-import com.smartagilify.projectmanagement.model.entities.ProjectAttachment;
 import com.smartagilify.projectmanagement.model.entities.WBS;
 import org.mapstruct.InheritInverseConfiguration;
 import org.mapstruct.Mapper;

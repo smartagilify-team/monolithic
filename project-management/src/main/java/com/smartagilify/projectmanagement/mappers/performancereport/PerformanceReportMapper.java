@@ -1,7 +1,4 @@
 package com.smartagilify.projectmanagement.mappers.performancereport;
-
-import com.smartagilify.baseinfo.dtos.BaseInfoDetailDTO;
-import com.smartagilify.baseinfo.entities.BaseInfoDetail;
 import com.smartagilify.core.mappers.BaseMapper;
 import com.smartagilify.projectmanagement.model.dtos.PerformanceReportDTO;
 import com.smartagilify.projectmanagement.model.entities.PerformanceReport;

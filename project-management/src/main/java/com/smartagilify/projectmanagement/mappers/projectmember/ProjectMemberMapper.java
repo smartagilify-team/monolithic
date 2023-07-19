@@ -2,9 +2,7 @@ package com.smartagilify.projectmanagement.mappers.projectmember;
 
 import com.smartagilify.core.mappers.BaseMapper;
 import com.smartagilify.projectmanagement.model.dtos.ProjectMemberDTO;
-import com.smartagilify.projectmanagement.model.dtos.WBSDTO;
 import com.smartagilify.projectmanagement.model.entities.ProjectMember;
-import com.smartagilify.projectmanagement.model.entities.WBS;
 import org.mapstruct.InheritInverseConfiguration;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;

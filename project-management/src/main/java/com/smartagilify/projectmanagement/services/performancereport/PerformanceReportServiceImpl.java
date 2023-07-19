@@ -9,7 +9,6 @@ import com.smartagilify.projectmanagement.model.entities.PerformanceReport;
 import com.smartagilify.projectmanagement.model.entities.Project;
 import com.smartagilify.projectmanagement.repositories.performancereport.PerformanceReportRepository;
 import com.smartagilify.projectmanagement.repositories.project.ProjectRepository;
-import com.smartagilify.projectmanagement.services.project.ProjectService;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Service;
 

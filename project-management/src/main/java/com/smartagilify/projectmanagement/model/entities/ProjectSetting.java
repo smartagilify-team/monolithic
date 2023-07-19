@@ -1,6 +1,5 @@
 package com.smartagilify.projectmanagement.model.entities;
 
-
 import com.smartagilify.core.entities.BaseEntity;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

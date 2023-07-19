@@ -1,7 +1,6 @@
 package com.smartagilify.projectmanagement.services.projectattachment;
 
 import com.smartagilify.core.enumerations.EN_STATE;
-import com.smartagilify.core.model.InputDTO;
 import com.smartagilify.core.services.BaseService;
 import com.smartagilify.projectmanagement.exceptions.ApplicationException;
 import com.smartagilify.projectmanagement.mappers.projectattachment.ProjectAttachmentMapper;
@@ -13,7 +12,6 @@ import com.smartagilify.projectmanagement.repositories.projectattachment.Project
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Service;
 
-import javax.transaction.Transactional;
 import java.time.LocalDateTime;
 
 @Service
