@@ -6,12 +6,10 @@ import com.smartagilify.projectmanagement.mappers.performancereport.PerformanceR
 import com.smartagilify.projectmanagement.model.dtos.PerformanceReportDTO;
 import com.smartagilify.projectmanagement.model.entities.PerformanceReport;
 import com.smartagilify.projectmanagement.services.performancereport.PerformanceReportService;
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 
-@Slf4j
 @RestController
 @RequestMapping(RestAddress.PERFORMANCE_REPORT)
 public class PerformanceReportController extends BaseController<PerformanceReport, PerformanceReportMapper, PerformanceReportDTO> {

@@ -6,11 +6,9 @@ import com.smartagilify.projectmanagement.mappers.projectattachment.ProjectAttac
 import com.smartagilify.projectmanagement.model.dtos.ProjectAttachmentDTO;
 import com.smartagilify.projectmanagement.model.entities.ProjectAttachment;
 import com.smartagilify.projectmanagement.services.projectattachment.ProjectAttachmentService;
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@Slf4j
 @RestController
 @RequestMapping(RestAddress.PROJECT_ATTACHMENT)
 public class ProjectAttachmentController extends BaseController<ProjectAttachment, ProjectAttachmentMapper, ProjectAttachmentDTO> {

@@ -3,9 +3,9 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/smartagilify-monolithic
-    username: postgres
-    password: admin
+    url: jdbc:postgresql://localhost:5342/smartagilify-monolithic
+    username: root
+    password: my-secret-pw
     driver-class-name: org.postgresql.Driver
   main:
     allow-bean-definition-overriding: true
